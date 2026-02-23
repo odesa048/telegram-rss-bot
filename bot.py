@@ -3,7 +3,7 @@ import requests
 import os
 
 BOT_TOKEN = os.environ["BOT_TOKEN"]
-CHANNEL = "@odesa_048_ua"
+CHANNEL = -1002453264440
 RSS_URL = "https://www.048.ua/rss"
 
 feed = feedparser.parse(RSS_URL)
